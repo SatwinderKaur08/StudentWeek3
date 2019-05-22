@@ -11,9 +11,25 @@ package studentweek3;
  */
 public class Student {
     private int MaxCourse;
+    private Boolean PartTime;
+    
     public static void main(String[] args) {
         Student s1 = new Student();
         s1.setFirstName("john");
         s1.setID(4);
+    }
+
+    /**
+     * @return the PartTime
+     */
+    public Boolean getPartTime() {
+        return PartTime;
+    }
+
+    /**
+     * @param PartTime the PartTime to set
+     */
+    public void setPartTime(Boolean PartTime) {
+        this.PartTime = PartTime;
     }
 }
