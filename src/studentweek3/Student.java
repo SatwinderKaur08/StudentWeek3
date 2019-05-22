@@ -10,6 +10,7 @@ package studentweek3;
  * @author DELLS
  */
 public class Student {
+    private int MaxCourse;
     public static void main(String[] args) {
         Student s1 = new Student();
         s1.setFirstName("john");
